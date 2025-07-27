@@ -1,0 +1,47 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.nav-logo {
+    font-family: Outfit;
+    font-size: 42px;
+    font-weight: 500;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);          
+  backdrop-filter: blur(10px);                   
+  -webkit-backdrop-filter: blur(10px);           
+  border: 1px solid rgba(255, 255, 255, 0.3);     
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  color: white;
+    
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+    
+}
+.nav-contact{
+    border-radius: 50px;
+    padding: 10px 38px;
+    color: #1c1c1c;
+    background: linear-gradient(135deg, #FF6A00, #ff2600ae); 
+  color: white;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  
+}
